@@ -1,6 +1,8 @@
 import numpy as np
 from sklearn.base import BaseEstimator
 
+
+
 class CombinedAttributesAdder(BaseEstimator):
     def __init__(self, add_bedrooms_per_room=True):
         self.add_bedrooms_per_room = add_bedrooms_per_room
